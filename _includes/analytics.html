@@ -1,0 +1,17 @@
+{% if site.analytics.provider and page.analytics != false %}
+
+{% case site.analytics.provider %}
+{% when "google" %}
+  {% include /analytics-providers/google.html %}
+{% when "google-universal" %}
+  {% include /analytics-providers/google-universal.html %}
+{% when "custom" %}
+  {% include /analytics-providers/custom.html %}
+{% when "baidu" %}
+  {% include /analytics-providers/baidu.html %}
+{% when "baidu&google-universal" %}
+  {% include /analytics-providers/baidu.html %}
+  {% include /analytics-providers/google-universal.html %}
+{% endcase %}
+
+{% endif %}

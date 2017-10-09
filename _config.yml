@@ -7,11 +7,11 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Zhenan Ye"
+title                    : "Zhenxing Xu"
 title_separator          : "-"
-name                     : &name "Zhenan Ye"
+name                     : &name "Zhenxing Xu"
 description              : &description "Deep learning, machine learning"
-url                      : https://drewanye.github.io # http://127.0.0.1:4000
+url                      : https://zhenxingxu2017.github.io # http://127.0.0.1:4000
                            # https://drewanye.github.io
                            # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -82,13 +82,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Zhenan Ye"
+  name             : "Zhenxing Xu"
   avatar           : "profile.jpg"
   bio              : "Master candidate in Zhejiang University"
   location         : "Hangzhou, China"
   employer         :
   #googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            : "zhenanye@zju.edu.cn"
+  email            : "xuzhenxing@zju.edu.cn"
   uri              :
   bitbucket        :
   codepen          :
